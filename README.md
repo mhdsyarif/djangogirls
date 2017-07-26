@@ -1,3 +1,3 @@
 # djangogirls
-Tutorial Blog by djangogirls </br>
+Tutorial blog using django by djangogirls </br>
 Documentation : https://tutorial.djangogirls.org/en/
