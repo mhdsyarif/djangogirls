@@ -1,0 +1,21 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+
+    <div class="container">
+        {% if form.errors %}
+            <p>Your username and password didn't match. Please try again.</p>
+        {% endif %}
+        <form class="form-signin"  method="post" action="{% url 'login' %}">
+            {% csrf_token %}
+            <h2 class="form-signin-heading">Please sign in</h2>
+            <label class="sr-only">{{ form.username.label_tag }}</label>
+            <!--{{ form.username }}-->
+            <input type="text" id="id_username" name="username" class="form-control" placeholder="Username" required autofocus>
+            <label  class="sr-only">{{ form.password.label_tag }}</label>
+            <!--{{ form.password }}{{ form.password }}-->
+            <input type="password" id="id_password" name="password" class="form-control" placeholder="Password" required>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        </form>
+    </div>
+{% endblock %}
