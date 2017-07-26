@@ -1,3 +1,3 @@
 # djangogirls
 Tutorial Blog by djangogirls </br>
-Source : https://tutorial.djangogirls.org/en/
+Documentation : https://tutorial.djangogirls.org/en/
