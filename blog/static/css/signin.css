@@ -1,7 +1,3 @@
-p {
-    text-align: center;
-}
-
 .form-signin {
   max-width: 330px;
   padding: 15px;
@@ -10,6 +6,7 @@ p {
 .form-signin .form-signin-heading,
 .form-signin .checkbox {
   margin-bottom: 10px;
+  text-align: center;
 }
 .form-signin .form-control {
   position: relative;
